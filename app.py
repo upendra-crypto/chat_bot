@@ -3,7 +3,8 @@ from flask_cors import CORS
 import google.generativeai as genai
 
 # Configure your API key
-API_KEY="AIzaSyCgSCmfHrG7uvArViLBw-Rl-EclaEFALuo"
+API_KEY 
+#enter api key to make the code to run . to get the api key go to the google ai studio website and get the apo key
 genai.configure(api_key=API_KEY)
 
 # Initialize Flask and CORS
